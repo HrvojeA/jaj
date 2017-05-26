@@ -594,11 +594,26 @@ h1.section-heading {
     background-color:#1e1e1c!important;
 }
 
-@media only screen and (max-width: 600px)
-{
-    .header .logo {
-        float: none;;
-        max-width: 100%;
-        margin: auto;
+@media only screen and (max-width: 600px){
+    .header .logo{
+        float:left;
+        max-width:100%;
     }
+    #header{
+        height:350px;
+    }
+    section p, #about p{
+        text-align:justify;
+    }
+    .instagram .image{
+
+        margin:auto;
+        margin-bottom:5px;
+    }
+    .grid li{
+        margin-left:auto!important;
+        margin:auto;
+        margin-bottom: 15px;
+    }
+
 }
